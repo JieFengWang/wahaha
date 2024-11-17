@@ -57,4 +57,4 @@ If query_type=3: Vector query with both categorical and timestamp attribute cons
 1. mini_rnn  https://github.com/JieFengWang/mini_rnn
 2. mini_kgraph https://github.com/JieFengWang/mini_kgraph
 
-update soon.
+代码&比赛问题可以提issue，进一步沟通可以通过`jeffwang@stu.xmu.edu.cn`联系我。Any Questions are welcome.
