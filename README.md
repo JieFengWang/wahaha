@@ -20,4 +20,12 @@ If query_type=3: Vector query with both categorical and timestamp attribute cons
 
 
 
+## Reference Links
+1. Relative NN-Descent https://github.com/mti-lab/rnn-descent
+2. NN-Descent (kgraph) https://github.com/aaalgo/kgraph
+3. Pyanns https://github.com/veaaaab/pyanns
+(below are the mini versions of rnn and kgraph. simple to use, simple to understand with the same efficiency)
+1. mini_rnn  https://github.com/JieFengWang/mini_rnn
+2. mini_kgraph https://github.com/JieFengWang/mini_kgraph
+
 update soon.
