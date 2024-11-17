@@ -1,6 +1,8 @@
 # wahaha
 [Runner-up Award](https://2024.sigmod.org/sigmod_awards.shtml) code for [2024 SIGMOD Programming Contest](https://dbgroup.cs.tsinghua.edu.cn/sigmod2024/leaders.shtml)
 
+![leaderboard](img/leaderboard.jpg)
+
 ## Introduction of `2024 SIGMOD Programming Contest`
 
 比赛要求在20分钟内完成编译、建图、搜索、保存搜索结果等任务，因此不是一个纯搜索比赛。在纯ANNS任务上，以SIFT1M举例，8线程情况下为其构建索引通常需要30秒以上，而搜索recall在0.9时，单线程每秒搜索个数就可达到10k以上。那么假如有10k的查询，单线程就可在1秒内完成查询。因此其关键点在于构建索引的时间，赢索引者赢比赛。索引构建的时间上，NSG > HNSW = 2X kgraph = 4X RNN-Descent，在搜索效率差不多的情况下，以上数据基于我的经验，当然与建图参数有很大关系。可以看到，在比赛中我使用的建图方法是Relative NN-Descent（RNN-Descent）。
